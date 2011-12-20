@@ -119,29 +119,20 @@
             
             <div id="message"></div>
                                 
-            <form method="post" action="includes/contact_form.php" name="contactform" id="contactform">
+            <form method="post" action="https://tictech-secure.heroku.com/do_post_login" name="loginform" id="loginform">
             
-            <fieldset>
-                    
-           
         
-            <label for=name accesskey=U><span class="required">*</span>E-mail</label>
-            <input name="name" type="text" id="name" size="53" value="" /> 
+            <label for=username accesskey=U><span class="required">*</span>E-mail</label>
+            <input name="username" type="text" id="username" size="53" value="" /> 
         
             <br />
-            <label for=email accesskey=E><span class="required">*</span>Wachtwoord</label>
-            <input name="email" type="text" id="email" size="53" value="" />
-        
-            
-			
-			
-			
-			
+            <label for=Password accesskey=P><span class="required">*</span>Wachtwoord</label>
+            <input name="password" type="password" id="password" size="53" value="" />
+        	
 			<div class="submitlogin">
             <input type="submit" class="submit" id="submit" value="Login" />
 			</div>
             
-            </fieldset>
         
             </form>
 			
