@@ -55,7 +55,7 @@ jQuery(function(){
 				'transitionOut'	: 'elastic'
 			});
 			
-			jQuery("a.portfolio").fancybox();
+			// jQuery("a.portfolio").fancybox();
 			
 			
 /*-----------------------------------------------------------------------------------*/
