@@ -726,3 +726,7 @@ ul#filter a:hover  {border-bottom:1px dotted #000;}
     background: url("images/bg-expand.png") repeat-x scroll left top #FFFFFF;
     height: 6px;
 }
+
+#post-content-wrap ul#portfolio p {
+    min-height: 160px;
+}
