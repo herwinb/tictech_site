@@ -16,9 +16,35 @@ body {
 	background-color: #FFF8B0;
 	}
 
+iframe {
+	position: absolute;
+	}
+
 h1 {
 	font-size: 60px;
 	}
+
+img.bg {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+	img.bg {
+		left: 50%;
+		margin-left: -512px;   /* 50% */
+	}
+}
 
 </style>
 
@@ -28,13 +54,10 @@ h1 {
 
 <body>
 
+<img src="DROOG1.jpg" class="bg">
 
 <center>
-<h1>DROOG Ticketshop</h1>
-</center>
-
-<center>
-<iframe id="tictech-shop" src="http://localhost:3000/shop/test_iframe?event_organizer_code=zeezout" frameborder="0" width="500" height="1000" allowtransparency="true" scrolling="no"></iframe>
+<iframe id="tictech-shop" src="http://localhost:3000/shop/test_iframe?event_organizer_code=zeezout" frameborder="0" width="500" height="650" allowtransparency="true" scrolling="no"></iframe>
 </center>
 
 </body>
