@@ -674,9 +674,10 @@ ul#filter a:hover  {border-bottom:1px dotted #000;}
 /* Eigen stuff */
 
 .woodstock {
-	background-image: url(images/woodstock.png);
+	background-image:url('images/woodstock.png');
 	text-align: right;
 	width: 880px;
+	background-repeat:no-repeat;
 	}
 
 .woodstockwrap {
