@@ -1,0 +1,21 @@
+body {
+	background-color: #feffea;
+	}
+	
+.eventposter {
+	background: url('flyer.png') #CC0000 no-repeat;
+	}
+	
+.container {
+	color: black;
+	}
+	
+.specificheight {
+	height: 616px;
+	}
+
+.toptic {
+	margin: 5px;
+	}
+
+
