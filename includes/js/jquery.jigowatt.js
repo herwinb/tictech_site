@@ -4,7 +4,7 @@ jQuery(document).ready(function(){
 	
 		var action = $(this).attr('action');
 		
-		$('#contactform #submit').attr('disabled','disabled').after('<img src="assets/ajax-loader.gif" class="loader" />');
+		$('#contactform #submit').attr('disabled','disabled').after('<img src="/includes/assets/ajax-loader.gif" class="loader" />');
 		
 		$("#message").slideUp(750,function() {
 		$('#message').hide();			
