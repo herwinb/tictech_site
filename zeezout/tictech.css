@@ -3,7 +3,7 @@ body {
 	}
 	
 .eventposter {
-	background: url('flyer.png') #CC0000 no-repeat;
+	background: url('flyer.png') #fce8dd no-repeat;
 	}
 	
 .container {
@@ -11,7 +11,7 @@ body {
 	}
 	
 .specificheight {
-	height: 616px;
+	height: 800px;
 	}
 
 .toptic {
